@@ -94,6 +94,11 @@ body {
     font-size: 55px;
 }
 
+.black {
+    color: black;
+    font-size: 18px;
+}
+
 .importante-black {
     color: black;
     font-size: 55px;
@@ -103,9 +108,13 @@ body {
 
 .container-3 {
     background-color:white;
-    display: flex;
-    justify-content: center;
     padding: 110px;
+}
+
+.container-testo {
+    display: flex;
+    flex-direction: column;
+    padding: 31px;
 }
 
 #img-1 {
