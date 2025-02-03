@@ -210,3 +210,19 @@ li > i {
 .margin {
     margin-bottom: 12px;
 }
+
+.linea {
+    height: 2px;
+    width: 1242px;
+    color: #7288da;
+    background-color: #7288da;
+    margin: -59px;
+    justify-self: center;
+    margin-left: -168px;
+}
+
+.bottom-footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+}
