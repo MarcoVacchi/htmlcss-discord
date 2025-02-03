@@ -7,7 +7,7 @@
 header {
    background-image: url('../img/jumbo.png');
    background-size: cover;
-   height: 500px;
+   height: 615px;
    padding: 18px;
 }
 
@@ -115,6 +115,7 @@ body {
     display: flex;
     flex-direction: column;
     padding: 31px;
+    max-width: 650px;
 }
 
 #img-1 {
@@ -132,7 +133,7 @@ body {
 }
 
 .gray {
-    background-color: gray;
+    background-color: #f6f6f6;
 }
 
 .green-container {
