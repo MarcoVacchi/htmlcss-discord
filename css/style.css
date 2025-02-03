@@ -11,6 +11,8 @@ header {
    padding: 18px;
 }
 
+
+
 body {
     font-family: Arial, Helvetica, sans-serif
 }
@@ -18,6 +20,7 @@ body {
 .white {
     color: white;
     font-size: 18px;
+    padding: 23px;
 }
 
 
@@ -26,15 +29,21 @@ body {
     justify-content: center;
 }
 
+.padding-default {
+   display: flex;
+}
+
+
 .bottom-header{
     display: flex;
         justify-content: center;
         flex-direction: column;
         align-items: center;
-        padding: 100px;
+        padding: 38px;
         padding-left: 433px;
         max-width: 1200px;
         text-align: -webkit-center;
+        margin-left: 143px;
 }
 
 .container-button {
@@ -66,7 +75,7 @@ body {
 .container-flex {
     display: flex;
     justify-content: center;
-    width: 1200px;
+    width: 1600px;
     justify-content: space-between;
     align-items: center;
     padding: 15px 0px;
