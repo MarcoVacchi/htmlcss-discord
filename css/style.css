@@ -136,32 +136,55 @@ body {
     background-color: #f6f6f6;
 }
 
-.green-container {
-    height: 900px;
-    background-color: #228b22;
-    border: 2px dotted black;
-}
-
-
-
 .container-4 {
     height: 1000px;
-    background-color:gray;
     display: flex;
     justify-content: center;
     padding: 51px;
+    background-color: #f6f6f6;
 }
 
 
-.container-5 {
+.green-container {
+    height: 900px;
     display: flex;
-    background-color: #23272a;
-    height: 1000px;
-    
+    flex-direction: column;
+    align-items: center;
 }
+
+.stars{ background-image: url(../img/stars.svg);
+    padding: 32px;
+    background-size: auto;
+    margin-bottom: 15px;
+}
+
+.button-footer{
+    background-color: #7288da;
+    color: white;
+}
+
+footer {
+    background-color: #23272a;
+}
+
+.blue { 
+    color: #7288da;
+}
+
+.top-footer {
+  padding: 65px;
+}
+
+
+div > i {
+    font-size: 20px;
+    color: white;
+}
+ 
 
 .container-6 {
     height: 630x;
+    width: 1826px;
     background-color: #23272a;
     display: flex;
     justify-content: center;
@@ -169,51 +192,33 @@ body {
 }
 
 .container-7 {
-    height: 575px;
-    background-color: #f08080;
-    border: 2px dotted black;
     display: flex;
    
 }
 
 .container-8 {
-    height: 575px;
-    background-color: #20b2aa;
-    border: 2px dotted black;
+    width: 1600px;
     display: flex;
     justify-content: space-evenly;
+    padding: 25px;
 }
 
 .item-container-8 {
-    border: 2px dotted white;
+   align-items:unset all;
 }
 
-footer {
-    background-color: #23272a;
-    height: 105px;
-    margin-top: -17px;
-    display: flex;
-    justify-content: center;
+.no-numbers {
+    list-style-type: none;
+    padding-left: 0;
+    padding-left: 0;
+    padding: 35px;
 }
 
-.container-footer {
-    display: flex;
-    background-color: #7fffd4;
-    height: 72px;
-    justify-content: space-between;
-    align-items: center;
-    margin-top: 35px;
+#bandiera {
+    width: 40px;
+    height: 25px;
+    padding: 0px;
 }
-
-.bottone-logo {
-    padding: 6px;
-    border: 2px dotted black;
-}
-
-
-
-
-.bottone {
-    padding: 6px;
-    border: 2px dotted black;
+.margin {
+    margin-bottom: 12px;
 }
