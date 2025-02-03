@@ -94,30 +94,32 @@ body {
     font-size: 55px;
 }
 
+.importante-black {
+    color: black;
+    font-size: 55px;
+    margin-bottom: 30px;
+}
 /*colori section*/
 
 .container-3 {
-    height: 600px;
     background-color:white;
     display: flex;
     justify-content: center;
-    padding: 51px;
+    padding: 110px;
 }
 
+#img-1 {
+    padding: 0px;
+}
 
 .debug main div .row {
-    height: 500px;
-    background-color: #1e90ff;
     display: flex;
     justify-self: center;
-    border: 2px dotted black;
 }
 
 .child {
-    height: 500px;
-    background-color: #ffc0cb;
-    display: flex;
-    border: 2px dotted black;
+   padding: 37px;
+   max-width: 620px;
 }
 
 .gray {
